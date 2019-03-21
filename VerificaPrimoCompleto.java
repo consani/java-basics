@@ -1,4 +1,3 @@
-package capitulo04;
 
 public class VerificaPrimoCompleto {
 	
@@ -8,14 +7,14 @@ public class VerificaPrimoCompleto {
 		int numero = 0;
 		boolean reexecutar = true;
 		
-		//Teste se entrada é válida !
+		//Teste se entrada Ã© vÃ¡lida !
 		while(reexecutar){
-			System.out.println("Digite o número:");
+			System.out.println("Digite o nÃºmero:");
 			numero = scan.nextInt();
 			if(numero > 0){
 				break;
 			}
-			System.out.println("Informe um número positivo!");
+			System.out.println("Informe um nÃºmero positivo!");
 		}
 				
 		//contar numero de divisores do numero informado
@@ -26,11 +25,11 @@ public class VerificaPrimoCompleto {
 			}
 		}
 		
-		//É numero primo se o numero de divisores forem 2 apenas
+		//Ã‰ numero primo se o numero de divisores forem 2 apenas
 		if(divisores == 2){
-			System.out.printf("Número %d é primo!",numero);
+			System.out.printf("NÃºmero %d Ã© primo!",numero);
 		}else{
-			System.out.printf("Número %d NÃO É primo!",numero);
+			System.out.printf("NÃºmero %d NÃƒO Ã‰ primo!",numero);
 		}
 		
 		
