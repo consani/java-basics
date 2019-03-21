@@ -1,20 +1,19 @@
-package capitulo04;
 
 public class DiasDoMesComEnum {
 	
 	public static void main(String[] args) {
 
-		String mes = javax.swing.JOptionPane.showInputDialog("Digite o mês:");
+		String mes = javax.swing.JOptionPane.showInputDialog("Digite o mÃªs:");
 		Mes mesDoAno = Mes.valueOf(mes.toUpperCase()); // toda letra em caixa alta.
 		
 		int attribDias = mesDoAno.getDias();
 		
 		int qtDeDias = getDiasDoMes(mesDoAno);
 		
-		System.out.printf("O mês %s tem %d dias\n", 
+		System.out.printf("O mÃªs %s tem %d dias\n", 
 									mesDoAno.name(),qtDeDias);
 		
-		System.out.printf("O mês %s tem %d dias\n", 
+		System.out.printf("O mÃªs %s tem %d dias\n", 
 				mesDoAno.name(),attribDias);
 
 		
