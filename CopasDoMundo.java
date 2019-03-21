@@ -1,4 +1,3 @@
-package capitulo04;
 
 public class CopasDoMundo {
 
