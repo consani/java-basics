@@ -1,4 +1,3 @@
-package capitulo04;
 
 import javax.swing.JOptionPane;
 
@@ -6,7 +5,7 @@ public class Fatorial {
 	
 	public static void main(String[] args) {
 		//Pega o valor pela caixa de texto
-		String sNumero = JOptionPane.showInputDialog("Digite o número:");
+		String sNumero = JOptionPane.showInputDialog("Digite o nÃºmero:");
 		int numero = Integer.parseInt(sNumero);//converte String em int
 		
 		double fatorial = 1;
@@ -15,7 +14,7 @@ public class Fatorial {
 			fatorial *= i;
 		}
 		
-		String texto = "O fatorial de " + numero + " é " + fatorial;
+		String texto = "O fatorial de " + numero + " Ã© " + fatorial;
 		
 		//Exibe uma mensagem informativa
 		JOptionPane.showMessageDialog(null, texto, "Fatorial",
